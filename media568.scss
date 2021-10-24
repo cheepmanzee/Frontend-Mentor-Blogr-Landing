@@ -1,0 +1,76 @@
+@media (max-width:568px) {
+    body {
+        .header {
+            .offer {
+                padding: 100px 0;
+                .offer__btns {
+                    width: auto;
+                    flex-direction: column;
+                    height: 110px;
+                }
+            }
+        }
+        .main {
+            .future {
+                background-size: 300px 235px;
+                background-position: center top 20%;
+                .future__wrapper {
+                    padding-top: 310px;
+                    .future__offer {
+                        width: 95%;
+                    }
+                }
+            }
+            .state {
+                padding-bottom: 130px;
+                .state__wrapper {
+                    .state__img {
+                        img {
+                            width: 230px;
+                            height: 235px;
+                        }
+                    }
+                    .state__text {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        h2 {
+                            font-size: 1.5rem;
+                        } 
+                    }
+                }
+            }
+            .free {
+                padding-top: 0;
+                background-size: 300px 215px;
+                background-position: center top 10%;
+                .free__wrapper {
+                    padding-top: 310px;
+                    .free__offer {
+                        width: 95%;
+                    }
+                }
+            }
+        }
+        .footer {
+            .footer__wrapper {
+                flex-direction: column;
+                a {
+                    align-self: center;
+                    margin-bottom:50px;
+                }
+                .footer__links {
+                    align-items: center;
+                    text-align: center;
+                    flex-direction: column;
+                    ul {
+                        padding-bottom: 50px;
+                        &:last-child {
+                            padding-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

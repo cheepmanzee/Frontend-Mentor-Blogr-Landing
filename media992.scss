@@ -1,0 +1,66 @@
+@media (max-width: 992px) {
+    body {
+        .main {
+            .future {
+                background: url(img/illustration-editor-mobile.svg);
+                background-repeat: no-repeat;
+                background-position: center top 20%;
+                background-size: 606px 501px;
+                h2 {
+                    padding:100px 0 0;
+                }
+                .future__wrapper {
+                    padding-bottom: 150px;
+                    padding-top: 620px;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    width: 100%;
+                    .future__offer {
+                        display: flex;
+                        align-self: center;
+                        flex-direction: column;
+                        width: 75%;
+                    }
+                }
+            }
+            .state {
+                background-position: center bottom;
+                padding: 0 0 170px;
+                .state__wrapper {
+                    flex-direction: column;
+                    text-align: center;
+                    .state__text {
+                        width: 75%;
+                    }
+                    .state__img {
+                        img {
+                            width: 400px;
+                            height: 410px;
+                        }
+                    }
+                }
+            }
+            .free {
+                background: url(img/illustration-laptop-mobile.svg);
+                background-repeat: no-repeat;
+                background-position: center top 10%;
+                background-size: 690px 500px;
+                padding: 100px 0 50px;
+                .free__wrapper {
+                    padding-top: 480px;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    width: 100%;
+                    .free__offer {
+                        display: flex;
+                        align-self: center;
+                        flex-direction: column;
+                        width: 75%;
+                    }
+                }
+            }
+        }
+    }
+}

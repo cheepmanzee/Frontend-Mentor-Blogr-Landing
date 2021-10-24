@@ -1,0 +1,24 @@
+@media (max-width:768px) {
+    body {
+        .header {
+            .nav {
+                .nav__left {
+                    .nav__links {
+                        display: none;
+                    } 
+                }
+                .nav__right {
+                    display: none;
+                }
+                .nav__burger {
+                    display: block;
+                }
+            }
+            .offer {
+                h1 {
+                    font-size: 2.2rem;
+                }
+            }
+        }
+    }
+}
